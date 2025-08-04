@@ -2,7 +2,7 @@
 * Integer to Roman
 */
 
-var romanToInt = function(s) {
+var integerToRoman = function(s) {
     var arr = [['I','V'],['X','L'],['C','D'],['M','']];
     let ans = "";
     let str = Number(s);
